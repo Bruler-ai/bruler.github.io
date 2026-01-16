@@ -143,7 +143,9 @@ footer {
 }
 git add .
 git commit -m "Improve design
+git commit -m "Add sticky navbar with logo and active link"
 git push
+
 
 
 
