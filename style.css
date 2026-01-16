@@ -6,12 +6,16 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-body {<nav>
-  <a href="index.html">Home</a>
-  <a href="service.html">Services</a>
-  <a href="why-me.html">Why Me</a>
-  <a href="contact.html">Contact</a>
+body {<nav class="navbar">
+  <div class="logo">Bruno Tech</div>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="service.html">Services</a>
+    <a href="why-me.html">Why Me</a>
+    <a href="contact.html">Contact</a>
+  </div>
 </nav>
+
 
   background-color: #f4f6f8;
   color: #333;
