@@ -262,10 +262,38 @@ footer {
   text-align: center;
   padding: 20px;
   margin-top: 40px;
+}.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: #f8fafc;
 }
-git add .
-git commit -m "Set active link for each page"
-git push
+
+.hero h1 {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 25px;
+  color: #334155;
+}
+
+.btn {
+  display: inline-block;
+  background: #38bdf8;
+  color: #020617;
+  padding: 12px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
 
 
 
