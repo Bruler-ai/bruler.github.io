@@ -69,6 +69,11 @@ body {/* ===== NAVIGATION ===== */
   align-items: center;
 }
 
+  body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+}
+
 .logo {
   color: #ffffff;
   font-size: 1.4rem;
