@@ -12,14 +12,19 @@
   <section class="contact">
   <h2>Contact Bruno Tech</h2>
   <p>Tell me about your project and I’ll get back to you fast.</p>
+<form id="contact-form"
+      action="https://formspree.io/f/YOUR_FORM_ID"
+      method="POST">
+  <input type="text" name="name" placeholder="Your Name" required>
+  <input type="email" name="email" placeholder="Your Email" required>
+  <textarea name="message" placeholder="Your Message" required></textarea>
+  <button type="submit">Send Message</button>
+</form>
 
-  <form action="https://formspree.io/f/xeeeoazv" method="POST">
-    <input type="text" name="name" placeholder="Your Name" required>
-    <input type="email" name="email" placeholder="Your Email" required>
-    <textarea name="message" placeholder="Your Message" required></textarea>
+<p id="success-msg" style="display:none;color:green;">
+  ✅ Message sent successfully!
+</p>
 
-    <button type="submit" class="btn">Send Message</button>
-  </form>
 </section>
 
 
