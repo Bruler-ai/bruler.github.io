@@ -1,34 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Bruno Tech | Affordable Websites Without Stress</title>
-
-
+  <meta charset="UTF-8">
+  <title>Bruno Tech | Affordable Websites Without Stress</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
-  <script>
-  const toggle = document.getElementById("menu-toggle");
-  const navLinks = document.getElementById("nav-links");
-
-  toggle.addEventListener("click", () => {
-    navLinks.classList.toggle("show");
-  });
-</script>
 
 <body>
 
-<nav class="navbar">
-  <div class="logo">Bruno Tech</div>
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">Bruno Tech</div>
 
-  <div class="menu-toggle" id="menu-toggle">☰</div>
+    <div class="menu-toggle" id="menu-toggle">☰</div>
 
-  <div class="nav-links" id="nav-links">
-    <a href="index.html" class="active">Home</a>
-    <a href="services.html">Services</a>
-    <a href="why-me.html">Why Me</a>
-    <a href="contact.html">Contact</a>
-  </div>
-</nav>
+    <div class="nav-links" id="nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="services.html">Services</a>
+      <a href="why-me.html">Why Me</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <!-- PAGE CONTENT HERE -->
+
+
+  <!-- SCRIPT MUST BE HERE (BOTTOM) -->
+  <script>
+    const toggle = document.getElementById("menu-toggle");
+    const navLinks = document.getElementById("nav-links");
+
+    toggle.addEventListener("click", () => {
+      navLinks.classList.toggle("show");
+    });
+  </script>
+
+</body>
+</html>
+
 <section class="hero">
   <h1>Welcome to Bruno Tech</h1>
   <p>Simple, affordable websites without stress.</p>
