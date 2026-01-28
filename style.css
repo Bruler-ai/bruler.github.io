@@ -446,6 +446,25 @@ footer {
 .contact button {
   cursor: pointer;
 }
+section {
+  background: #f9f9f9;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 8px;
+}
+
+section a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #007bff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+section a:hover {
+  text-decoration: underline;
+}
 
 
 
