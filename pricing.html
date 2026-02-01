@@ -1,48 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
   <title>Pricing | Bruno Tech</title>
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+
+<!-- NAVBAR (same as other pages) -->
 <nav class="navbar">
   <div class="logo">Bruno Tech</div>
-
   <div class="menu-toggle" id="menu-toggle">☰</div>
-
   <div class="nav-links" id="nav-links">
     <a href="index.html">Home</a>
     <a href="services.html">Services</a>
-    <a href="pricing.html">Pricing</a>
+    <a href="pricing.html" class="active">Pricing</a>
     <a href="contact.html">Contact</a>
   </div>
 </nav>
 
-  
-<h1>Pricing Plans</h1>
-<p>Simple & affordable pricing</p>
+<h1>Pricing</h1>
 
-<section>
-  <h2>Basic</h2>
-  <p>$30</p>
-  <p>1-page website</p>
-  <a href="contact.html">Choose this plan</a>
+<section id="web">
+  <h2>Website Development</h2>
+  <p>From $50 – simple & fast websites</p>
+  <a href="contact.html">Order this service</a>
 </section>
 
-<section>
-  <h2>Standard</h2>
-  <p>$60</p>
-  <p>Multi-page website</p>
-  <a href="contact.html">Choose this plan</a>
+<section id="seo">
+  <h2>SEO Services</h2>
+  <p>From $30 – appear on Google</p>
+  <a href="contact.html">Order this service</a>
 </section>
 
-<section>
-  <h2>Premium</h2>
-  <p>$100</p>
-  <p>Full website + support</p>
-  <a href="contact.html">Choose this plan</a>
+<section id="design">
+  <h2>Graphic Design</h2>
+  <p>From $20 – logos & branding</p>
+  <a href="contact.html">Order this service</a>
 </section>
+
+<script>
+  const toggle = document.getElementById("menu-toggle");
+  const navLinks = document.getElementById("nav-links");
+  toggle.addEventListener("click", () => {
+    navLinks.classList.toggle("show");
+  });
+</script>
 
 </body>
 </html>
