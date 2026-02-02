@@ -15,59 +15,44 @@
 </head>
   
 <body>
-<nav class="navbar">
-  <div class="logo">Bruno Tech</div>
 
-  <div class="menu-toggle" id="menu-toggle">☰</div>
-
-  <div class="nav-links" id="nav-links">
-    <a href="index.html">Home</a>
-    <a href="services.html">Services</a>
-    <a href="pricing.html">Pricing</a>
-    <a href="contact.html">Contact</a>
-  </div>
+<nav>
+  <a href="index.html">Home</a>
+  <a href="services.html">Services</a>
+  <a href="pricing.html">Pricing</a>
+  <a href="contact.html">Contact</a>
 </nav>
 
-  
-  <h2>Contact Bruno Tech</h2>
+<div class="container">
+  <h1>Contact Bruno Tech</h1>
   <p>Tell me about your project and I’ll get back to you fast.</p>
-<form action="https://formsubmit.co/compskillshub@gmail.com" method="POST">
-  <input type="hidden" name="service" value="">
 
-  <label>Full Name</label>
-  <input type="text" name="name" required>
+  <form>
+    <label>Your Name</label>
+    <input type="text" required>
 
-  <label>Email</label>
-  <input type="email" name="email" required>
+    <label>Your Email</label>
+    <input type="email" required>
 
-  <label>Phone / WhatsApp</label>
-  <input type="text" name="phone" required>
+    <label>Message</label>
+    <textarea rows="4" required></textarea>
 
-  <label>Describe what you need</label>
-  <textarea name="message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
 
-  <button type="submit">Send Request</button>
-</form>
-
-
-  <hr>
-<hr>
-
-<h2>Payment Methods</h2>
-
-<ul>
-  <li>📱 Mobile Money (MTN / Airtel)</li>
-  <li>💳 PayPal</li>
-  <li>🏦 Bank Transfer</li>
-</ul>
-
-<p>
-After you contact me, I’ll send payment details.<br>
-Work starts after payment confirmation.
-</p>
-
+  <div class="payment">
+    <h2>Payment Methods</h2>
+    <ul>
+      <li>📱 Mobile Money (MTN / Airtel)</li>
+      <li>💳 PayPal</li>
+      <li>🏦 Bank Transfer</li>
+    </ul>
+    <p>Work starts after payment confirmation.</p>
+  </div>
+</div>
 
 </body>
+
 </html>
 <script>
 const params = new URLSearchParams(window.location.search);
