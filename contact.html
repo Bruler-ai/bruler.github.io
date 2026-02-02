@@ -29,31 +29,24 @@
   
   <h2>Contact Bruno Tech</h2>
   <p>Tell me about your project and I’ll get back to you fast.</p>
+<form action="https://formsubmit.co/compskillshub@gmail.com" method="POST">
+  <input type="hidden" name="service" value="">
 
-  <form action="https://formspree.io/f/xeeeoazv" method="POST">
+  <label>Full Name</label>
+  <input type="text" name="name" required>
 
-    <input type="hidden" name="_subject" value="New message from Bruno Tech">
+  <label>Email</label>
+  <input type="email" name="email" required>
 
-    <label>
-      Your Name:<br>
-      <input type="text" name="name" required>
-    </label>
-    <br><br>
+  <label>Phone / WhatsApp</label>
+  <input type="text" name="phone" required>
 
-    <label>
-      Your Email:<br>
-      <input type="email" name="email" required>
-    </label>
-    <br><br>
+  <label>Describe what you need</label>
+  <textarea name="message" required></textarea>
 
-    <label>
-      Message:<br>
-      <textarea name="message" required></textarea>
-    </label>
-    <br><br>
+  <button type="submit">Send Request</button>
+</form>
 
-    <button type="submit">Send Message</button>
-  </form>
 
   <hr>
 <hr>
@@ -74,3 +67,8 @@ Work starts after payment confirmation.
 
 </body>
 </html>
+<script>
+const params = new URLSearchParams(window.location.search);
+document.querySelector('input[name="service"]').value =
+params.get('service') || 'General Request';
+</script>
