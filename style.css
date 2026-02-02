@@ -1,4 +1,8 @@
 /* ===== ANIMATIONS ===== */
+body{
+  background:red;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
