@@ -227,6 +227,14 @@ section {
   max-width: 900px;
   margin: auto;
 }
+section {
+  background: rgba(255, 255, 255, 0.06);
+  padding: 40px;
+  margin: 40px auto;
+  border-radius: 12px;
+  max-width: 1000px;
+}
+
 
 section h2 {
   color: #1e3a8a;
