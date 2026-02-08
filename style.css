@@ -155,13 +155,13 @@ nav {
 nav a {
   color: #ffffff;
   text-decoration: none;
-  margin: 0 15px;
   font-weight: bold;
 }
 
 nav a:hover {
-  color: #38bdf8;
+  color: #8f8cff;
 }
+
 body{
   margin:0;
   font-family: Arial, sans-serif;
