@@ -388,6 +388,19 @@ footer {
   margin-bottom: 20px;
 }
 
+.pricing-card {
+  background: #ffffff;
+  color: #111827;
+}
+
+.pricing-card h3 {
+  color: #1e3a8a;
+}
+
+.pricing-card ul li {
+  color: #374151;
+}
+
 .card ul li {
   margin: 8px 0;
 }
@@ -643,6 +656,19 @@ h1, h2, h3, h4 {
 
 p {
   color: #d1d5ff;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.logo img {
+  width: 40px;
+  height: auto;
 }
 
 
