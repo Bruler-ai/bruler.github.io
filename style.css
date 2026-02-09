@@ -671,5 +671,8 @@ p {
   height: auto;
 }
 
+body {
+  background: linear-gradient(135deg, #0f172a, #312e81);
+}
 
 
